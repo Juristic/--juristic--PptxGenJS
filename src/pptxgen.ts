@@ -76,7 +76,7 @@ import {
 	SchemeColor,
 	ShapeType,
 	WRITE_OUTPUT_TYPE,
-	ANCHOR
+	ANCHOR,
 } from './core-enums'
 import {
 	AddSlideProps,
@@ -445,6 +445,51 @@ export default class PptxGenJS implements IPresentationProps {
 		}
 	}
 
+	private getFilesByStructure(dir: string) {
+		const filesByStructure = []
+
+		function processDirectory(dirPath: string, currentObject: any[]) {
+			const files = fs.readdirSync(dirPath)
+
+			files.forEach(file => {
+				const filePath = path.join(dirPath, file)
+				if (fs.statSync(filePath).isDirectory()) {
+					currentObject[file] = {}
+					processDirectory(filePath, currentObject[file])
+				} else {
+					currentObject[file] = []
+				}
+			})
+		}
+
+		processDirectory(dir, filesByStructure)
+		return filesByStructure
+	}
+
+	private async createZipStructure(structure: any[], currentFolder: string) {
+		if (!currentFolder) {
+			currentFolder = null //new JSZip();
+		}
+
+		await Promise.all(
+			structure.map(async item => {
+				const [name, contents] = Object.entries(item)[0]
+				if (Array.isArray(contents)) {
+					const subfolder = currentFolder.folder(name)
+					await createZipStructure(contents, subfolder)
+				} else if (typeof contents === 'object') {
+					const subfolder = currentFolder.folder(name)
+					await createZipStructure([contents], subfolder)
+				} else {
+					const fileContent = fs.readFileSync(name, 'utf-8')
+					currentFolder.file(name, fileContent)
+				}
+			})
+		)
+
+		return currentFolder
+	}
+
 	/**
 	 * Create and export the .pptx file
 	 * @param {WRITE_OUTPUT_TYPE} outputType - output file type
@@ -453,6 +498,7 @@ export default class PptxGenJS implements IPresentationProps {
 	private exportPresentation = (props: WriteProps): Promise<string | ArrayBuffer | Blob | Buffer | Uint8Array> => {
 		let arrChartPromises: Promise<string>[] = []
 		let arrMediaPromises: Promise<string>[] = []
+		const sourceFolder = '../defaultContent'
 		let zip = new JSZip()
 
 		// STEP 1: Read/Encode all Media before zip as base64 content, etc. is required
@@ -470,6 +516,9 @@ export default class PptxGenJS implements IPresentationProps {
 			this.slides.forEach(slide => {
 				if (slide._slideLayout) genObj.addPlaceholdersToSlideLayouts(slide)
 			})
+
+			const structure = getFilesByStructure(sourceFolder)
+			createZipStructure(structure, undefined)
 
 			// B: Add all required folders and files
 			zip.folder('_rels')

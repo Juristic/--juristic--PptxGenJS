@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" showMasterSp="0" userDrawn="1">
+    <p:cSld name="1_Thank You Dark">
+        <p:bg>
+            <p:bgPr>
+                <a:solidFill>
+                    <a:srgbClr val="464646"/>
+                </a:solidFill>
+                <a:effectLst/>
+            </p:bgPr>
+        </p:bg>
+        <p:spTree>
+            <p:nvGrpSpPr>
+                <p:cNvPr id="1" name=""/>
+                <p:cNvGrpSpPr/>
+                <p:nvPr/>
+            </p:nvGrpSpPr>
+            <p:grpSpPr>
+                <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="0" cy="0"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="0" cy="0"/>
+                </a:xfrm>
+            </p:grpSpPr>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="14" name="Rectangle 13"/>
+                    <p:cNvSpPr/>
+                    <p:nvPr/>
+                </p:nvSpPr>
+                <p:spPr bwMode="hidden">
+                    <a:xfrm>
+                        <a:off x="0" y="5599635"/>
+                        <a:ext cx="10058400" cy="2172765"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                        <a:avLst/>
+                    </a:prstGeom>
+                    <a:solidFill>
+                        <a:srgbClr val="D04A02"/>
+                    </a:solidFill>
+                    <a:ln>
+                        <a:noFill/>
+                    </a:ln>
+                </p:spPr>
+                <p:style>
+                    <a:lnRef idx="2">
+                        <a:schemeClr val="accent1">
+                            <a:shade val="50000"/>
+                        </a:schemeClr>
+                    </a:lnRef>
+                    <a:fillRef idx="1">
+                        <a:schemeClr val="accent1"/>
+                    </a:fillRef>
+                    <a:effectRef idx="0">
+                        <a:schemeClr val="accent1"/>
+                    </a:effectRef>
+                    <a:fontRef idx="minor">
+                        <a:schemeClr val="lt1"/>
+                    </a:fontRef>
+                </p:style>
+                <p:txBody>
+                    <a:bodyPr rtlCol="0" anchor="ctr"/>
+                    <a:lstStyle/>
+                    <a:p>
+                        <a:pPr algn="ctr"/>
+                        <a:endParaRPr lang="en-GB" sz="1485" dirty="0"/>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="2" name="Title 1"/>
+                    <p:cNvSpPr>
+                        <a:spLocks noGrp="1"/>
+                    </p:cNvSpPr>
+                    <p:nvPr>
+                        <p:ph type="ctrTitle" hasCustomPrompt="1"/>
+                    </p:nvPr>
+                </p:nvSpPr>
+                <p:spPr>
+                    <a:xfrm>
+                        <a:off x="502919" y="518160"/>
+                        <a:ext cx="4378285" cy="2849880"/>
+                    </a:xfrm>
+                </p:spPr>
+                <p:txBody>
+                    <a:bodyPr anchor="b" anchorCtr="0">
+                        <a:normAutofit/>
+                    </a:bodyPr>
+                    <a:lstStyle>
+                        <a:lvl1pPr algn="l">
+                            <a:lnSpc>
+                                <a:spcPct val="85000"/>
+                            </a:lnSpc>
+                            <a:defRPr sz="4840">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl1pPr>
+                    </a:lstStyle>
+                    <a:p>
+                        <a:r>
+                            <a:rPr lang="en-GB" dirty="0"/>
+                            <a:t>Closing statement</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="7" name="AutoShape 3"/>
+                    <p:cNvSpPr>
+                        <a:spLocks noChangeAspect="1" noChangeArrowheads="1" noTextEdit="1"/>
+                    </p:cNvSpPr>
+                    <p:nvPr/>
+                </p:nvSpPr>
+                <p:spPr bwMode="auto">
+                    <a:xfrm>
+                        <a:off x="4400550" y="0"/>
+                        <a:ext cx="5657850" cy="7772400"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                        <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln>
+                        <a:noFill/>
+                    </a:ln>
+                    <a:extLst>
+                        <a:ext uri="{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}">
+                            <a14:hiddenFill xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+                                <a:solidFill>
+                                    <a:srgbClr val="FFFFFF"/>
+                                </a:solidFill>
+                            </a14:hiddenFill>
+                        </a:ext>
+                        <a:ext uri="{91240B29-F687-4F45-9708-019B960494DF}">
+                            <a14:hiddenLine xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" w="9525">
+                                <a:solidFill>
+                                    <a:srgbClr val="000000"/>
+                                </a:solidFill>
+                                <a:miter lim="800000"/>
+                                <a:headEnd/>
+                                <a:tailEnd/>
+                            </a14:hiddenLine>
+                        </a:ext>
+                    </a:extLst>
+                </p:spPr>
+                <p:txBody>
+                    <a:bodyPr vert="horz" wrap="square" lIns="75438" tIns="37719" rIns="75438" bIns="37719" numCol="1" anchor="t" anchorCtr="0" compatLnSpc="1">
+                        <a:prstTxWarp prst="textNoShape">
+                            <a:avLst/>
+                        </a:prstTxWarp>
+                    </a:bodyPr>
+                    <a:lstStyle/>
+                    <a:p>
+                        <a:endParaRPr lang="en-GB" sz="1485" dirty="0"/>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="6" name="Text Placeholder 5"/>
+                    <p:cNvSpPr>
+                        <a:spLocks noGrp="1"/>
+                    </p:cNvSpPr>
+                    <p:nvPr>
+                        <p:ph type="body" sz="quarter" idx="10" hasCustomPrompt="1"/>
+                    </p:nvPr>
+                </p:nvSpPr>
+                <p:spPr>
+                    <a:xfrm>
+                        <a:off x="502920" y="5907024"/>
+                        <a:ext cx="9052560" cy="1554480"/>
+                    </a:xfrm>
+                </p:spPr>
+                <p:txBody>
+                    <a:bodyPr/>
+                    <a:lstStyle>
+                        <a:lvl1pPr marL="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100" b="0">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl1pPr>
+                        <a:lvl2pPr marL="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100" b="0">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl2pPr>
+                        <a:lvl3pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100" b="0">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl3pPr>
+                        <a:lvl4pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100" b="0">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl4pPr>
+                        <a:lvl5pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100" b="0">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl5pPr>
+                        <a:lvl6pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl6pPr>
+                        <a:lvl7pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl7pPr>
+                        <a:lvl8pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl8pPr>
+                        <a:lvl9pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:spcAft>
+                                <a:spcPts val="0"/>
+                            </a:spcAft>
+                            <a:buFontTx/>
+                            <a:buNone/>
+                            <a:defRPr sz="1100">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:defRPr>
+                        </a:lvl9pPr>
+                    </a:lstStyle>
+                    <a:p>
+                        <a:pPr lvl="0"/>
+                        <a:r>
+                            <a:rPr lang="en-GB" dirty="0"/>
+                            <a:t>[Legal]</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="9" name="AutoShape 3"/>
+                    <p:cNvSpPr>
+                        <a:spLocks noChangeAspect="1" noChangeArrowheads="1" noTextEdit="1"/>
+                    </p:cNvSpPr>
+                    <p:nvPr userDrawn="1"/>
+                </p:nvSpPr>
+                <p:spPr bwMode="auto">
+                    <a:xfrm>
+                        <a:off x="4400550" y="0"/>
+                        <a:ext cx="5657850" cy="7772400"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                        <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln>
+                        <a:noFill/>
+                    </a:ln>
+                    <a:extLst>
+                        <a:ext uri="{909E8E84-426E-40DD-AFC4-6F175D3DCCD1}">
+                            <a14:hiddenFill xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main">
+                                <a:solidFill>
+                                    <a:srgbClr val="FFFFFF"/>
+                                </a:solidFill>
+                            </a14:hiddenFill>
+                        </a:ext>
+                        <a:ext uri="{91240B29-F687-4F45-9708-019B960494DF}">
+                            <a14:hiddenLine xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" w="9525">
+                                <a:solidFill>
+                                    <a:srgbClr val="000000"/>
+                                </a:solidFill>
+                                <a:miter lim="800000"/>
+                                <a:headEnd/>
+                                <a:tailEnd/>
+                            </a14:hiddenLine>
+                        </a:ext>
+                    </a:extLst>
+                </p:spPr>
+                <p:txBody>
+                    <a:bodyPr vert="horz" wrap="square" lIns="75438" tIns="37719" rIns="75438" bIns="37719" numCol="1" anchor="t" anchorCtr="0" compatLnSpc="1">
+                        <a:prstTxWarp prst="textNoShape">
+                            <a:avLst/>
+                        </a:prstTxWarp>
+                    </a:bodyPr>
+                    <a:lstStyle/>
+                    <a:p>
+                        <a:endParaRPr lang="en-GB" sz="1485" dirty="0"/>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+            <p:sp>
+                <p:nvSpPr>
+                    <p:cNvPr id="4" name="TextBox 3">
+                        <a:extLst>
+                            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{97A53FBC-337E-0D4B-8811-6E0EEC0A9293}"/>
+                            </a:ext>
+                        </a:extLst>
+                    </p:cNvPr>
+                    <p:cNvSpPr txBox="1"/>
+                    <p:nvPr userDrawn="1"/>
+                </p:nvSpPr>
+                <p:spPr>
+                    <a:xfrm>
+                        <a:off x="502919" y="4974336"/>
+                        <a:ext cx="4378285" cy="414528"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                        <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                </p:spPr>
+                <p:txBody>
+                    <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+                        <a:noAutofit/>
+                    </a:bodyPr>
+                    <a:lstStyle/>
+                    <a:p>
+                        <a:pPr marL="0" indent="0">
+                            <a:lnSpc>
+                                <a:spcPct val="100000"/>
+                            </a:lnSpc>
+                            <a:spcBef>
+                                <a:spcPts val="0"/>
+                            </a:spcBef>
+                            <a:buSzPct val="100000"/>
+                            <a:buFont typeface="Arial"/>
+                            <a:buNone/>
+                        </a:pPr>
+                        <a:r>
+                            <a:rPr lang="en-GB" sz="1100" dirty="0">
+                                <a:solidFill>
+                                    <a:schemeClr val="bg1"/>
+                                </a:solidFill>
+                            </a:rPr>
+                            <a:t>www.pwc.dk</a:t>
+                        </a:r>
+                    </a:p>
+                </p:txBody>
+            </p:sp>
+        </p:spTree>
+        <p:extLst>
+            <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+                <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="10541614"/>
+            </p:ext>
+        </p:extLst>
+    </p:cSld>
+    <p:clrMapOvr>
+        <a:overrideClrMapping bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>
+    </p:clrMapOvr>
+</p:sldLayout>

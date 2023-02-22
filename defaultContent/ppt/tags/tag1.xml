@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:tagLst xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+    <p:tag name="DIVIDERTOCSTYLE" val="Bulleted"/>
+    <p:tag name="FOOTERHEIGHT" val="550"/>
+    <p:tag name="FORECASTBOXCOLOR" val="252,212,182"/>
+    <p:tag name="FORECASTBOXTRANSPARENCY" val="0"/>
+    <p:tag name="GLOSS_CAGR" val="CAGR`GS`Compound annual growth rate"/>
+    <p:tag name="GLOSS_EBIT" val="EBIT`GS`Earnings before interest and tax"/>
+    <p:tag name="GLOSS_EBITDA" val="EBITDA`GS`Earnings before interest, tax, depreciation and amortisation"/>
+    <p:tag name="GLOSS_FY[XX]" val="FY[xx]`GS`Financial year ending [...]"/>
+    <p:tag name="GLOSS_H1/H2" val="H1/H2`GS`Half year periods ending [1st half year ending date] and [2nd half year ending date], respectively"/>
+    <p:tag name="GLOSS_KPI" val="KPI`GS`Key performance indicator"/>
+    <p:tag name="GLOSS_LTM" val="LTM`GS`Last twelve months"/>
+    <p:tag name="GLOSS_P.A." val="p.a.`GS`Per annum"/>
+    <p:tag name="GLOSS_PPT" val="ppt`GS`Percentage points"/>
+    <p:tag name="GLOSS_Q1/2/3/4" val="Q1/2/3/4`GS`Quarters ending [Q1 end date], [Q2 end date], [Q3 end date] and [Q4 end date], respectively"/>
+    <p:tag name="GLOSS_SPA" val="SPA`GS`Sale and Purchase Agreement"/>
+    <p:tag name="GLOSS_TERM" val="Term`GS`Defintion"/>
+    <p:tag name="GLOSS_YTD [XX]" val="YTD [xx]`GS`Year to date to [month] [20xx]"/>
+    <p:tag name="HASNAVIGATIONBUTTON" val="No"/>
+    <p:tag name="HEADINGBUTTONTEXTCOLOR" val="Accent1"/>
+    <p:tag name="HIGHLIGHTBOXTRANSPARENCY" val="0"/>
+    <p:tag name="HIGHLIGHTBUTTONTEXTCOLOR" val="Accent1"/>
+    <p:tag name="HORIZONTALTOCTYPE" val="Header TOC"/>
+    <p:tag name="INCLUDEINHORIZONTALTOC" val="No"/>
+    <p:tag name="ISBRANDREFRESH" val="Yes"/>
+    <p:tag name="PAGINATIONSTART" val="Slide 1"/>
+    <p:tag name="PRESENTATION THEME COLOR" val="PwC"/>
+    <p:tag name="SHOW DATE FILEPATH" val="NO"/>
+    <p:tag name="SHOWPRESENTATIONDISCLAIMER" val="Yes"/>
+    <p:tag name="SMARTDOCUMENTTYPE" val="2"/>
+    <p:tag name="SMARTISVISIBLE" val="{@PresentationDisclaimer}!=No Disclaimer"/>
+    <p:tag name="SMARTSHAPETYPE" val="PresentationDisclaimer"/>
+    <p:tag name="SMARTTOCHYPERLINK" val="YES"/>
+    <p:tag name="SMRTDOCUMENTTYPE" val="2"/>
+    <p:tag name="TABLEDEFAULTFONTSIZE" val="10"/>
+    <p:tag name="TABLEHEADERFONTSIZE" val="12"/>
+    <p:tag name="TABLESTYLEID" val="{74ED0A72-4B8E-423B-AE2F-120ADE3C16FB}"/>
+    <p:tag name="TEMPLATETYPE" val="ReImagine"/>
+    <p:tag name="THINKCELLUNDODONOTDELETE" val="0"/>
+    <p:tag name="TOCOVERVIEWTEXT" val="Overview"/>
+    <p:tag name="TOCPAGETEXT" val="Page"/>
+    <p:tag name="TOCSECTIONHEADERTEXT" val="Section"/>
+    <p:tag name="TOCSECTIONTEXT" val="Section"/>
+    <p:tag name="TOCTEXT" val="Contents"/>
+    <p:tag name="ADDHEADERNAV" val="No"/>
+    <p:tag name="CONFIDENTIALITY STAMP" val="Strictly private and confidential"/>
+    <p:tag name="PWCFOOTER" val="PwC"/>
+    <p:tag name="REIMAGINE_MAIN" val="Orange_Colored Box on the Left"/>
+    <p:tag name="SMARTTOCSTYLE" val="Orange_Colored Box on the Left"/>
+    <p:tag name="REIMAGINE_SECTION" val="Dark Gray_Colored Box on the Left"/>
+    <p:tag name="REIMAGINE_APPENDIX" val="Dark Gray_Colored Box on the Left"/>
+    <p:tag name="REIMAGINE_TYPEOFSTYLEAPPLIED" val="07_Colored Box on the Left_Orange_Dark Gray_Dark Gray"/>
+    <p:tag name="STYLECHANGED" val="No"/>
+    <p:tag name="SMARTTOCSLIDENUMBER" val="4"/>
+    <p:tag name="REPORT DATE" val="9 February 2023"/>
+    <p:tag name="SHOW DRAFT STAMP" val="YES"/>
+    <p:tag name="FOOTERTEXT" val="Project Phishing "/>
+    <p:tag name="PRESENTATIONDISCLAIMER" val="Standard Disclaimer EN"/>
+    <p:tag name="PRESENTATIONDISCLAIMERTEXT" val="Strictly private and confidential"/>
+    <p:tag name="LANGUAGE" val="English (UK)"/>
+    <p:tag name="TITLE" val="Project Phishing "/>
+    <p:tag name="SUBTITLE" val="Tax strawman"/>
+    <p:tag name="DRAFT STAMP" val="Draft"/>
+    <p:tag name="LASTSLIDEVIEWED" val="1281,28,Final structure after closing"/>
+</p:tagLst>
